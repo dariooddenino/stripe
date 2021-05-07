@@ -22,7 +22,7 @@ library
   exposed-modules:     Web.Stripe.Client.HttpStreams
   other-extensions:    OverloadedStrings, RecordWildCards
   build-depends:         base         >= 4.7  && < 5
-                       , aeson        >= 0.8 && < 0.10 || >= 0.11 && < 1.5
+                       , aeson        >= 1.5  && < 1.6
                        , bytestring   >= 0.10 && < 0.11
                        , HsOpenSSL    >= 0.11 && < 0.12
                        , http-streams >= 0.7  && < 0.9
@@ -38,7 +38,7 @@ Test-Suite tests
     build-depends:    HsOpenSSL
                     , base                >= 4.7  && < 5
                     , free                >= 4.10 && < 6
-                    , hspec               >= 2.1.0 && < 2.7
+                    , hspec               >= 2.7  && < 2.8
                     , http-streams        >= 0.7  && < 0.9
                     , stripe-core
                     , stripe-http-streams

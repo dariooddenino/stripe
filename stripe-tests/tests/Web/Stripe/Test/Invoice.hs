@@ -1,5 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RebindableSyntax  #-}
+{-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE RecordWildCards   #-}
 module Web.Stripe.Test.Invoice where
 
